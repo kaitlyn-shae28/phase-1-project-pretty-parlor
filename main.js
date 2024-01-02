@@ -21,7 +21,7 @@ function filterTypes(selectedType) {
     });
 }
 
-// bookButtons.forEach(bookButton => {
+// bookButtons.map(bookButton => {
 //     bookButtons.addEventListener('click', () => {
 //         alert('Appointment Booked!');
 //     })
