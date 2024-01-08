@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     typeDropdown.addEventListener('change', (event) => {
     const selectedType = event.target.value;
     filterTypes(selectedType);
+    const buttons = document.querySelectorAll(".btn");
   });
 });
 
@@ -21,10 +22,10 @@ function filterTypes(selectedType) {
     });
 }
 
-// bookButtons.map(bookButton => {
-//     bookButtons.addEventListener('click', () => {
-//         alert('Appointment Booked!');
-//     })
-// })
+const buttons = document.querySelectorAll(".btn");
+buttons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    alert("Appointment Booked!");
+  });
+});
 
-// NEED TO MAKE ALL BUTTONS POP UP!!!!
