@@ -14,14 +14,15 @@ function filterCategory(selectedCategory) {
     console.log(a);
 
     a.map(element => {
-        const div = document.createElement('div')
-        div.className = 'col-lg-4 col-md-4 col-sm-6 col-12 p-3'
+        const div = document.createElement('div');
         div.innerHTML = `
-                    <div class="card" style="width: 18rem; height: 100% ">
-                            <div class="card-body">
-                          <h5 class="card-title">${element.Name}</h5>
-                           <p class="card-text">${element.Category}</p>
-                            </div>
+                    <div class="card" id=${element.category} style="width: 18rem; height: 100% ">
+                        <img src= ${element.image}   
+                        <div class="card-body">
+                            <h4><b>${element.name}</b></h4>
+                            <p>Starting at ${element.price}</p>
+                            <button class="btn">Book Appointment!</button>
+                        </div>
                     </div>
                             `
         row.appendChild(div)
