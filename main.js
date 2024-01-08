@@ -1,7 +1,7 @@
 const bookButtons = document.getElementById('appointment-button')
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('data.json');
+    fetch('db.json');
         .then(response => response.json());
     const typeDropdown = document.querySelector('#select-type');
     typeDropdown.addEventListener('change', (event) => {
