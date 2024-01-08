@@ -1,16 +1,18 @@
 const bookButtons = document.getElementById('appointment-button')
 
 document.addEventListener('DOMContentLoaded', () => {
+    fetch('data.json');
+        .then(response => response.json());
     const typeDropdown = document.querySelector('#select-type');
     typeDropdown.addEventListener('change', (event) => {
-    const selectedType = event.target.value;
-    filterTypes(selectedType);
-    const buttons = document.querySelectorAll(".btn");
+    const category = event.target.value;
+    filterCategory(category);
   });
 });
 
-function filterCategory(selectedCategory) {
-    const a = arr.filter(el => el.Category === category);
+const row = document.querySelector('.row')
+function filterCategory(category) {
+    const a = arr.filter(el => el.category === category);
     console.log(a);
 
     a.map(element => {
@@ -25,10 +27,10 @@ function filterCategory(selectedCategory) {
                         </div>
                     </div>
                             `
-        row.appendChild(div)
+         row.innerHTML = div;
     });
 
-}
+};
 
 const buttons = document.querySelectorAll(".btn");
 buttons.forEach(function(button) {
