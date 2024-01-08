@@ -1,8 +1,39 @@
 {
-    "hair appointments": [
+    "appointments": [
         {
             "id": 1,
-            "name": 
+            "name": "Woman's Haircut",
+            "image": "https://i0.wp.com/www.hadviser.com/wp-content/uploads/2019/01/32-long-hairstyle-with-flipped-layers-Be_5JCmnJOI.jpg?resize=1074%2C1265&ssl=1",
+            "price": 30,
+            "category": "hair"
+        },
+        {
+            "id": 2,
+            "name": "Men's Haircut",
+            "image": "https://images.squarespace-cdn.com/content/v1/5cd9d27f840b16669a850ca3/1627483215031-Q5R0G0NDF54SPHZ7WEDA/brian-barber-clean-curled-haircut-barbers-den.jpeg",
+            "price": 20,
+            "category": "hair"
+        },
+        {
+            "id": 3,
+            "name": "Coloring",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-664647789-1556657469.jpg?crop=0.620xw:0.931xh;0,0&resize=640:*",
+            "price": 50,
+            "category": "hair"
+        },
+        {
+            "id": 4,
+            "name": "Manicure",
+            "image": "https://www.essie.com/-/media/Project/loreal/brand-sites/essie/Americas/US/articles/nail_art/how-to-do-french-tip-nails/essie-nail-polish-french-manicure-shiny-final-look-2-512x512.jpg",
+            "price": 25,
+            "category": "nail"
+        },
+        {
+            "id": 5,
+            "name": "Pedicure",
+            "image": "https://www.glam.com/img/gallery/classic-natural-pedicures-are-the-refreshingly-easy-spring-trend-to-try-now/l-intro-1680304634.jpg",
+            "price": 30,
+            "category": "nail"
         }
     ]
 }
