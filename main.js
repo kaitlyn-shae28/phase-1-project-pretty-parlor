@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('http://localhost:3000/appointments')
-        .then(response => response.text())
-        .then(data => {
-          console.log(data)
-          const bookButtons = document.getElementById('appointment-button');
-          const typeDropdown = document.querySelector('#select-type');
-          typeDropdown.addEventListener('change', (event) => {
-          const category = event.target.value;
-          filterCategory(category, data);
-          });
-        })
-        .catch(error => {
-          console.error(error);
-        });
+  fetch('http://localhost:3000/appointments')
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      const typeDropdown = document.querySelector('#select-type');
+      typeDropdown.addEventListener('change', (event) => {
+        const category = event.target.value;
+        filterCategory(category, data);
+      });
+    })
+    const bookButtons = document.getElementById('appointment-button')
+    .catch(error => {
+      console.error(error);
+    });
 });
 
 const row = document.querySelector('.row');
@@ -37,22 +37,6 @@ function filterCategory(category, data) {
     row.innerHTML += div.innerHTML;
   });
 };
-
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('http://localhost:3000/appointments')
-    .then(response => response.json())
-    .then(data => {
-      console.log(data);
-      const typeDropdown = document.querySelector('#select-type');
-      typeDropdown.addEventListener('change', (event) => {
-        const category = event.target.value;
-        filterCategory(category, data);
-      });
-    })
-    .catch(error => {
-      console.error(error);
-    });
-});
 
 const buttons = document.querySelectorAll(".btn");
 buttons.forEach(function(button) {
