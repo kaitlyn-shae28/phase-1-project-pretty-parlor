@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const buttons = document.querySelectorAll('.btn');
     })
+    
     .catch(error => {
       console.error(error);
     });
