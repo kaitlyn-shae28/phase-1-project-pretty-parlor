@@ -17,7 +17,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const row = document.querySelector('.row');
 
+function clearAppointments() {
+  row.innerHTML = '';
+}
+
 function filterCategory(category, data) {
+  clearAppointments();
   const appointments = Array.from(data);
   const filteredAppointments = appointments.filter(appointment => appointment.category === category);
   console.log(filteredAppointments);
