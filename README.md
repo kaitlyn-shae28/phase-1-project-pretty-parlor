@@ -1,6 +1,7 @@
 # Pretty Parlor: Salon Web App
 The Pretty Parlor web application is designed as an online homebase for salon patrons.
-<!-- Link demo -->
+**Watch Demo Here!:**
+[link]https://youtu.be/9xXsyaQePQk
 
 ## Table of Contents
 - [General Information](#general-information)
