@@ -19,7 +19,7 @@ This app includes a list of cards each showcasing a different service which the 
 The Pretty Parlor web page also includes a filter at the top of the page. This filter gives a user the ability to narrow down the service they may be searching for between a *hair appointment* or a *nail appointment*. This allows for easier accessability for users.
 
 ## Project Status
-Project is: *in progress*
+Project is: *finished*
 
 ## Acknowledgements
 - Thanks to *Vadala Salon and Spa* for inspiring this project.
