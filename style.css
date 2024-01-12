@@ -5,17 +5,18 @@ body {
   
   body h1 {
     color: #7a7575;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
   }
   
   body label {
     color: #8f8888;
-    font-family: ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
   body select {
     color: #8f8888;
     background-color:  rgb(228, 207, 222);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   } 
 
   article.media-post {
