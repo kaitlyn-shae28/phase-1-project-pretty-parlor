@@ -14,10 +14,8 @@ The Pretty Parlor is a web application that was created to make book an appoinme
 
 ## Features
 This app includes a list of cards each showcasing a different service which the salon provides. The cards have an image representing the service, the service title, the base price of the service, and a button which books an appointment when clicked.
-<!-- insert gif of cards and popups? -->
 
 The Pretty Parlor web page also includes a filter at the top of the page. This filter gives a user the ability to narrow down the service they may be searching for between a *hair appointment* or a *nail appointment*. This allows for easier accessability for users.
-<!-- insert gif of filter? -->
 
 ## Project Status
 Project is: *in progress*
