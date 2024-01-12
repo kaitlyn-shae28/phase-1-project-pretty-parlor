@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const category = event.target.value;
         filterCategory(category, data);
       });
-
-      const buttons = document.querySelectorAll('.btn');
     })
     
     .catch(error => {
